@@ -142,3 +142,11 @@ img {
   height: 200px;
   width: auto;
 }
+
+.tooltip {
+  opacity: 0;
+}
+
+.greet_window:hover + .tooltip {
+  opacity: 1;
+}
