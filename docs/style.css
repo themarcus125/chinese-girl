@@ -132,8 +132,13 @@ img {
 .contributor {
   width: 200px;
   margin: 24px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 .contributor h4, .contributor p { width: 100%; }
 .contributor img {
-  width: 200px;
+  height: 200px;
+  width: auto;
 }
