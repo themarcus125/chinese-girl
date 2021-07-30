@@ -144,9 +144,9 @@ img {
 }
 
 .tooltip {
-  opacity: 0;
+  display: none;
 }
 
 .greet_window:hover + .tooltip {
-  opacity: 1;
+  display: block;
 }
